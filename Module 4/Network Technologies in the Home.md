@@ -4,30 +4,50 @@
 
 ## **1. LAN Wireless Frequencies**
 
-The wireless technologies most frequently used in home networks are in the unlicensed 2.4 GHz and 5 GHz frequency ranges.
+Home networks commonly use wireless technologies operating in the unlicensed **2.4 GHz** and **5 GHz** frequency bands.
 
-Bluetooth is a technology that makes use of the 2.4 GHz band. It is limited to low-speed, short-range communications, but has the advantage of communicating with many devices at the same time. This one-to-many communication has made Bluetooth technology the preferred method for connecting computer peripherals such as wireless mice, keyboards and printers. Bluetooth is a good method for transmitting audio to speakers or headphones.
+- **Bluetooth** operates in the 2.4 GHz band, supporting low-speed, short-range communication. It is widely used for connecting peripherals such as wireless mice, keyboards, printers, and audio devices like speakers and headphones.
+- **Wi-Fi (IEEE 802.11 standards)** uses both 2.4 GHz and 5 GHz bands. Unlike Bluetooth, Wi-Fi operates at higher power levels, providing greater range and improved data throughput.
+- **Electromagnetic Spectrum Usage**: Certain frequency bands are unlicensed, meaning they can be used without a permit. The figure below illustrates where different wireless technologies exist on the electromagnetic spectrum.
 
-Other technologies that use the 2.4 GHz and 5 GHz bands are the modern wireless LAN technologies that conform to the various IEEE 802.11 standards. Unlike Bluetooth technology, 802.11 devices transmit at a much higher power level giving them a great range and improved throughput. Certain areas of the electromagnetic spectrum can be used without a permit.
-
-The figure shows where wireless technologies exist on the electromagnetic spectrum.
-
-![alt text](./src/image2.png)
+![Wireless Spectrum](./src/image2.png)
 
 ---
 
 ## **2. Wired Network Technologies**
 
-Although many home network devices support wireless communications, there are still a few applications where devices benefit from a wired switch connection that is not shared with other users on the network.
+Despite the convenience of wireless networking, many home devices benefit from a wired connection for improved speed, stability, and security. The most common wired networking technology is **Ethernet**, which provides reliable communication over a Local Area Network (LAN).
 
-The most commonly implemented wired protocol is the Ethernet protocol. Ethernet uses a suite of protocols that allow network devices to communicate over a wired LAN connection. An Ethernet LAN can connect devices using many different types of wiring media.
+### **Types of Wired Connections**
 
-Directly connected devices use an Ethernet patch cable, usually unshielded twisted pair. These cables can be purchased with the RJ-45 connectors already installed, and they come in various lengths. Recently constructed homes may have Ethernet jacks already wired in the walls of the home. For those homes that do not have UTP wiring, there are other technologies, such as powerline, that can distribute wired connectivity throughout the premises.
+| **Type**                | **Description**                                                                                                                        | **Picture**                      |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| **Category 5e (Cat5e)** | Most common LAN cable, consisting of four twisted pairs to reduce interference. Supports up to 1 Gbps speeds.                          | ![Cat5e Cable](./src/image3.png) |
+| **Coaxial Cable**       | Features an inner wire surrounded by insulation and a conductive shield. Often used for cable internet and television services.        | ![Coax Cable](./src/image4.png)  |
+| **Fiber-optic Cable**   | Uses glass or plastic fibers to transmit data as light pulses. Offers very high bandwidth and long-distance transmission capabilities. | ![Fiber Cable](./src/image5.png) |
 
-| Types                  | Description                                                                                                                                                                                                                                                                           | Picture                      |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| **Category 5e**        | Category 5e is the most common wiring used in a LAN. The cable is made up of 4 pairs of wires that are twisted to reduce electrical interference.                                                                                                                                     | ![picture](./src/image3.png) |
-| **Coaxial cable**      | Coaxial cable has an inner wire surrounded by a tubular insulating layer, that is then surrounded by a tubular conducting shield. Most coax cables also have an external insulating sheath or jacket.                                                                                 | ![picture](./src/image4.png) |
-| **Fiber-optic cables** | Fiber-optic cables can be either glass or plastic with a diameter about the same as a human hair and it can carry digital information at very high speeds over long distances. Fiber-optic cables have a very high bandwidth, which enables them to carry very large amounts of data. | ![picture](./src/image5.png) |
+### **Advantages of Wired Connections Over Wireless**
+
+- **Higher Stability**: Not affected by signal interference or distance-related degradation.
+- **Lower Latency**: Essential for real-time applications such as online gaming and video conferencing.
+- **Enhanced Security**: Less susceptible to eavesdropping or unauthorized access.
+- **Dedicated Bandwidth**: Unlike Wi-Fi, wired connections do not share bandwidth with multiple devices on the same frequency.
+
+### **Common Ethernet Standards**
+
+| **Ethernet Standard**       | **Speed**     | **Max Distance** | **Cable Type**              |
+| --------------------------- | ------------- | ---------------- | --------------------------- |
+| **Fast Ethernet**           | 100 Mbps      | 100m             | Cat5                        |
+| **Gigabit Ethernet**        | 1 Gbps        | 100m             | Cat5e, Cat6                 |
+| **10 Gigabit Ethernet**     | 10 Gbps       | 55m – 100m       | Cat6a, Cat7                 |
+| **40/100 Gigabit Ethernet** | 40 – 100 Gbps | 7m – 40km        | Cat8 (short) or fiber optic |
+
+### **Ethernet in Home Networks**
+
+1. **Direct Connection via Ethernet Cable**: Devices such as PCs, gaming consoles, Smart TVs, and security cameras can be connected directly to the router or switch using RJ-45 Ethernet cables.
+2. **Built-in Ethernet Wall Wiring**: Some modern homes include pre-installed Ethernet ports in the walls for seamless connectivity.
+3. **Alternative Wired Networking Technologies**:
+   - **Powerline Networking**: Uses existing electrical wiring to extend network connections. A powerline adapter connects to a power outlet near the router, with another placed where wired connectivity is needed. While slower than Ethernet, it is more stable than Wi-Fi.
+   - **MoCA (Multimedia over Coax Alliance)**: Uses existing coaxial TV cables to distribute network signals, ideal for homes with cable TV wiring but no Ethernet infrastructure.
 
 ---
